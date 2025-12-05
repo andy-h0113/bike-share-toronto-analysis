@@ -2,7 +2,7 @@ import json
 import pandas as pd
 
 # Read the JSON file
-with open('./FinalProject/data/bike_stations.json', 'r') as f:
+with open('./FinalProject/raw_data/bike_stations.json', 'r') as f:
     data = json.load(f)
 
 stations = data['data']['stations']
