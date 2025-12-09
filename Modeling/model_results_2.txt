@@ -82,3 +82,17 @@ Train R^2            | 0.7483               | 0.6543
 Val R^2              | 0.5666               | 0.5923              
 Test R^2             | 0.5816               | 0.6126              
 =================================================================
+
+
+
+==================================================
+FINAL TEST SET EVALUATION (Real Bike Counts)
+==================================================
+Model: BikeDemandNet (Best Tuned)
+R-squared (R²): 0.6050
+Root Mean Squared Error (RMSE): 1.2551 bikes
+Mean Absolute Error (MAE): 0.5643 bikes
+--------------------------------------------------
+Negative Log Predictions: 33957 (2.54%)
+(Clamped to 0 for metric calculation)
+==================================================
